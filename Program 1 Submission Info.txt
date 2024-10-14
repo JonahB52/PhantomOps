@@ -1,0 +1,7 @@
+For my program I used Unreal Engine 5.4.4.  I modified/expanded the First Person Shooter template in the following ways:
+• Added a splash screen using the following tutorial: https://www.youtube.com/watch?v=FXa3h3d6RT0
+	• I customized it to have interactable buttons rather then a fade.
+• Changed camera perspective to topdown.
+• Character rotation is determined by Raycasts from the mouse, turning the character to look at the mouse's location.
+• The character can press LMB to fire projectiles, which damages actors that implement a 'Health' interface.
+• Enemies spawn at set points after random intervals, they path find to the player and trigger a Game Over state if close enough.
